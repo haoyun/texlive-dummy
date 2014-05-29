@@ -1,6 +1,6 @@
 Name: texlive-dummy
 Version: 1
-Release: 1.5%{?dist}
+Release: 1.6%{?dist}
 Summary: Dummy TeXLive package
 License: GPLv2 and BSD and Public Domain and LGPLv2+ and GPLv2+ and LPPL
 Group: Applications/Publishing
@@ -20,6 +20,16 @@ Provides:	libkpathsea.so.4
 Provides:	libkpathsea.so.4()(64bit)
 Provides:	xdvi
 Provides:	dvipng
+Provides:	tex(ptmro8t.tfm)
+Provides:	tex(ptmri8t.tfm)
+Provides:	tex(ptmr8t.tfm)
+Provides:	tex(ptmb8t.tfm)
+Provides:	tex(phvr8t.tfm)
+Provides:	tex(pcrr8t.tfm)
+Provides:	tex(inconsolata.sty)
+Provides:	tex(ecrm1000.tfm)
+Provides:	tex(cm-super-ts1.enc)
+Provides:	tex(epsf.tex)
 #Obsoletes:	texlive-doc < 2999
 #Obsoletes:	texlive-east-asian < 2999
 #Obsoletes:	texlive-texmf-afm < 2999

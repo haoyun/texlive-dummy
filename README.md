@@ -1,7 +1,7 @@
 Dummy Package of TeXlive For Fedora
 ===================================
 
-This is the source of a dummy package for TeXLive of Fedora.
+This is the source of a dummy package of TeXLive for Fedora.
 To get the rpm package, simply run, for example
 
     rpmbuild -bb texlive-dummy.spec
